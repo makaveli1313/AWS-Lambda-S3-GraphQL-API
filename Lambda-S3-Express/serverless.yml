@@ -1,0 +1,31 @@
+app: data-server
+org: makaveli13
+service: KlimaMetrix
+
+provider:
+ name: aws
+ apiKeys:
+   - name: graphql
+ runtime: nodejs12.x
+ stage: dev
+ region: eu-central-1
+#
+functions:
+ server:
+   handler: handler.server
+   events:
+      - http: 
+          path: /
+          method: POST
+          cors: true
+          private: true
+      - http: 
+          path: /{proxy+}
+          method: POST
+          cors: true
+          private: true
+      - http: 
+          path: /file/upload
+          method: POST
+          cors: true
+          private: false
