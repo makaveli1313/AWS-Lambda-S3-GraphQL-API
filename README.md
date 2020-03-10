@@ -22,7 +22,7 @@
   - Latitude<br/>
   - Longitude<br/>
   - Additional data<br/>
-  - Calculated bee-line distance from the Klima.Metrix office ( lat: 52.502931, lng: 13.408249)<br/>
+  - Calculated bee-line distance from the  ( lat: 52.502931, lng: 13.408249)<br/>
   - Private access<br/>
 </pre>
 ### 3. Testing
