@@ -1,4 +1,4 @@
-# Klima.Metrix Code Challenge Specification
+# Code Challenge Specification
 
 ### 1. Develop an API that enables external (unauthenticated) user to upload JSON files to S3 
 <pre>
